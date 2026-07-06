@@ -1,0 +1,44 @@
+\# Operating system files
+
+.DS\_Store
+
+Thumbs.db
+
+
+
+\# Editor files
+
+.vscode/
+
+.idea/
+
+
+
+\# Logs
+
+\*.log
+
+
+
+\# Environment/secrets
+
+.env
+
+\*.key
+
+\*.pem
+
+
+
+\# Temporary files
+
+tmp/
+
+temp/
+
+
+
+\# Private notes
+
+private/
+
