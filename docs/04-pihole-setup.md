@@ -93,3 +93,39 @@ Pi-hole dashboard opened successfully in browser
 
 Admin password was reset using pihole setpassword
 
+
+
+
+
+\## Gravity Database Fix
+
+
+
+After the initial dashboard loaded, the "Domains on Lists" card showed:
+
+
+
+```text
+
+Error (-2)
+
+
+
+This was fixed by rebuilding the Pi-hole gravity database 
+
+&#x09;pihole -g
+
+
+
+After rebuilding gravity, the dashboard showed:
+
+
+
+Domains on Lists: 78,188
+
+Pi-hole status: Active
+
+Blocking confirmed working
+
+
+
