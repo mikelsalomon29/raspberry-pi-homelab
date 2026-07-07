@@ -29,7 +29,7 @@ A lightweight self-hosted homelab built on a Raspberry Pi 3 Model B+ to learn Li
 | Wi-Fi | Network connection | Complete |
 | Raspberry Pi Connect | Backup remote access option | Enabled |
 | GitHub Repository | Version control and public documentation | Complete |
-| Pi-hole | DNS ad/tracker blocking | Planned |
+| Pi-hole | DNS ad/tracker blocking | Complete |
 | Tailscale | Secure remote access | Planned |
 | Docker | Containerized services | Planned |
 | Portainer | Docker management UI | Planned |
