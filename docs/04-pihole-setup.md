@@ -127,5 +127,27 @@ Pi-hole status: Active
 
 Blocking confirmed working
 
+## One-Week Laptop DNS Test
+
+Pi-hole was tested on the Windows laptop before making any router-wide DNS changes.
+
+Test setup:
+
+- Device using Pi-hole DNS: Windows laptop
+- DNS server: `192.168.1.246`
+- Test length: approximately one week
+- Router-wide DNS: not enabled
+
+Results:
+
+- Normal browsing worked
+- Google, YouTube, GitHub, and UF websites loaded normally
+- Pi-hole dashboard showed active DNS queries from the laptop
+- No major network issues were observed during the test
+
+Decision:
+
+Router-wide DNS changes were postponed. Pi-hole will continue to be used on the Windows laptop only for now.
+
 
 
