@@ -72,3 +72,17 @@ Pi-hole is working successfully on the Windows laptop without major browsing or 
 ### Current Decision
 
 Pi-hole is not being applied router-wide yet. The Raspberry Pi will continue to provide DNS filtering only for the Windows laptop for now.
+
+
+
+## Tailscale Remote Access
+
+Tailscale is installed on the Raspberry Pi and Windows laptop.
+
+It creates a secure private network between the devices, allowing the Raspberry Pi to be accessed remotely without opening ports on the router.
+
+SSH connection:
+
+```bash
+ssh mikel@pihomelab
+
