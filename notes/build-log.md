@@ -86,3 +86,12 @@ SSH connection:
 ```bash
 ssh mikel@pihomelab
 
+
+Docker installed on the Raspberry Pi
+User mikel added to the docker group
+Docker tested with hello-world
+Uptime Kuma deployed with Docker Compose
+Dashboard running on port 3001
+Pi-hole and Uptime Kuma monitors both show Up
+Restart policy is unless-stopped
+Reboot test confirmed the container starts automatically
